@@ -3,9 +3,7 @@ package converterMoney;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 public class Converter {
@@ -89,10 +87,10 @@ public class Converter {
 		if (valuta.equals("usd")) {
 			this.getFromURL(usd);
 		}
-		if (valuta.equals("euro")) {
+		else if (valuta.equals("euro")) {
 			this.getFromURL(euro);
 		}
-		if (valuta.equals("pln")) {
+		else if (valuta.equals("pln")) {
 			this.getFromURL(pln);
 		}
 
