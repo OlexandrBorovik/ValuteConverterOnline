@@ -97,7 +97,7 @@ public class Converter {
 		}
 
 		else {
-			System.out.println("Валюта не поддерживается.");
+			System.out.println("Not available valute.");
 
 		}
 	}
@@ -138,9 +138,9 @@ public class Converter {
 			String bu = String.format("%.2f",b);
 			
 			
-			System.out.println("Покупка: " + buy + " Продажа: " + sell);
-			System.out.println("Купить " + summ + " " + v + " стоит " + se + " гривен.");
-			System.out.println("За продажу " + summ + " " + v + " Вы получите " + bu + " гривен.");
+			System.out.println("Buy: " + buy + " Sell: " + sell);
+			System.out.println("Buy " + summ + " " + v + " cost " + se + " UAH.");
+			System.out.println("Sell " + summ + " " + v + " cost " + bu + "  UAH.");
 
 		}
 	}
