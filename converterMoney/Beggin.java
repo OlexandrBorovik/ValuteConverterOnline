@@ -10,10 +10,10 @@ public class Beggin {
 	public void firsStep() {
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("¬ведите валюту:");
+		System.out.println("Enter valute:");
 
 		String valuta = (sc.nextLine());
-		System.out.println("¬ведите количество валюты:");
+		System.out.println("Enter sum:");
 		int summ = sc.nextInt();
 		c.setSumm(summ);
 		c.setV(valuta);
