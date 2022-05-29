@@ -87,7 +87,7 @@ public class Converter {
 
 	public void request(String valuta) throws IOException {
 		if (valuta.equals("usd")) {
-			this.getFromURL("https://minfin.com.ua/currency/usd/");
+			this.getFromURL(usd);
 		}
 		if (valuta.equals("euro")) {
 			this.getFromURL(euro);
